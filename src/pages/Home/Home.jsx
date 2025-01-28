@@ -1,8 +1,13 @@
-
+import Header from '../../components/Header/Header'
+import Banner from '../../components/Banner/Banner'
+import './home.scss'
 
 function Home() {
     return (
-        console.log("je d'abord")
+        <div>
+            <Header />
+            <Banner />
+        </div>
     )
 }
 
