@@ -1,0 +1,9 @@
+.gallery {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    max-width: 97%;
+}
