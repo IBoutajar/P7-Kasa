@@ -4,7 +4,7 @@ import './home.scss'
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <Header />
             <Banner />
         </div>
