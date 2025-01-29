@@ -1,5 +1,12 @@
+import './about.scss'
+import Header from '../../components/Header/Header'
+
 function About() {
-    return console.log('Page About')
+    return (
+        <div>
+            <Header />
+        </div>
+    )
 }
 
 export default About
