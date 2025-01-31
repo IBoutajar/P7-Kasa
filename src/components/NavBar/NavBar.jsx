@@ -14,7 +14,7 @@ function NavBar() {
                             : 'nav_list_item'
                     }
                 >
-                    <Link to="/">Acceuil</Link>
+                    <Link to="/">Accueil</Link>
                 </li>
                 <li
                     className={

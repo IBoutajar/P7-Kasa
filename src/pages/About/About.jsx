@@ -1,4 +1,5 @@
 import './about.scss'
+import '../../Sass/Base/reset.scss'
 import Header from '../../components/Header/Header'
 import Banner from '../../components/Banner/Banner'
 
