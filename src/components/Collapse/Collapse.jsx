@@ -10,7 +10,13 @@ function Collapse({ title, content }) {
             <div className="collapse">
                 <h3 onClick={() => setToggle(!toggle)}>
                     <p>{title}</p>
-                    <img src={arrow} alt="show content" />
+                    <img
+                        className={
+                            toggle ? 'arrow arrow_up' : 'arrow arrow_down'
+                        }
+                        src={arrow}
+                        alt="show content"
+                    />
                 </h3>
             </div>
             <div
