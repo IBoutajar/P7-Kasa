@@ -1,5 +1,6 @@
 import './collapse.scss'
 import arrow from '../../assets/arrow.png'
+import PropTypes from 'prop-types'
 import { useState } from 'react'
 
 function Collapse({ title, content }) {
@@ -25,8 +26,9 @@ function Collapse({ title, content }) {
                 }
             >
                 {Array.isArray(content) ? (
+                    // <ul> a placé
                     content.map((item, index) => {
-                        return <p key={index}>{item}</p>
+                        return <p key={index}>{item}</p> // changer en <li>
                     })
                 ) : (
                     <p>{content}</p>
@@ -34,6 +36,11 @@ function Collapse({ title, content }) {
             </div>
         </>
     )
+}
+
+Collapse.propTypes = {
+    title: PropTypes.string,
+    content: PropTypes.string,
 }
 
 export default Collapse
