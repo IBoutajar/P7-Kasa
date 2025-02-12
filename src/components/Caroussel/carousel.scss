@@ -1,0 +1,34 @@
+.carousel {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 95%;
+    aspect-ratio: 22/9;
+    margin: 43px auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &_arrow {
+        position: absolute;
+        top: 46%;
+        height: 10%;
+        cursor: pointer;
+
+        &_right {
+            right: 25px;
+        }
+
+        &_left {
+            left: 25px;
+        }
+    }
+
+    .slideCount {
+        position: absolute;
+        bottom: 25px;
+        left: 49%;
+        color: white;
+        font-weight: 500;
+    }
+}

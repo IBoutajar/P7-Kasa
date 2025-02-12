@@ -1,9 +1,9 @@
 .collapse {
     background-color: #ff6060;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 70px;
     display: flex;
-    width: 95%;
+    width: 100%;
 
     h3 {
         display: flex;
@@ -34,7 +34,7 @@
     &_content {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         font-size: 24px;
         height: auto;
         margin: auto;
@@ -53,5 +53,16 @@
         visibility: hidden;
         opacity: 0;
         height: 0;
+    }
+}
+
+.accomodation_collapse {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 30px auto;
+    width: 95%;
+    &_item {
+        width: 50%;
     }
 }
