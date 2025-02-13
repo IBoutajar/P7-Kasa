@@ -1,6 +1,7 @@
 import './carousel.scss'
 import ArrowRight from '../../assets/chevron_carousel_right.png'
 import ArrowLeft from '../../assets/chevron_carousel_left.png'
+import PropTypes from 'prop-types'
 import { useState } from 'react'
 
 function Slider({ imageSlider }) {
@@ -44,6 +45,10 @@ function Slider({ imageSlider }) {
             )}
         </section>
     )
+}
+
+Slider.propTypes = {
+    imageSlider: PropTypes.array,
 }
 
 export default Slider

@@ -1,5 +1,6 @@
 import greyStar from '../../assets/grey_star.png'
 import redStar from '../../assets/red_star.png'
+import PropTypes from 'prop-types'
 
 function Rating({ rating }) {
     return (
@@ -16,6 +17,10 @@ function Rating({ rating }) {
             })}
         </div>
     )
+}
+
+Rating.propTypes = {
+    rating: PropTypes.string,
 }
 
 export default Rating
