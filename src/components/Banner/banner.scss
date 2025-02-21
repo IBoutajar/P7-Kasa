@@ -13,10 +13,18 @@
     max-width: 94%;
     margin: 43px auto;
 
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
+
     h2 {
         color: #fff;
         font-size: 48px;
         font-weight: 500;
+
+        @media screen and (max-width: 768px) {
+            font-size: 35px;
+        }
     }
 }
 

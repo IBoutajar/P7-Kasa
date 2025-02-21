@@ -26,9 +26,8 @@ function Collapse({ title, content }) {
                 }
             >
                 {Array.isArray(content) ? (
-                    // <ul> a placé
                     content.map((item, index) => {
-                        return <p key={index}>{item}</p> // changer en <li>
+                        return <p key={index}>{item}</p>
                     })
                 ) : (
                     <p>{content}</p>

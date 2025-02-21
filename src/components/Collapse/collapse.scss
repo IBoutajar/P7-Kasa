@@ -60,9 +60,15 @@
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 95%;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
     &_item {
         width: 50%;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
     }
 }

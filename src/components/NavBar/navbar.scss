@@ -7,6 +7,10 @@
         gap: 50px;
         font-size: 24px;
         font-weight: 500;
+        @media screen and (max-width: 1100px) {
+            gap: 30px;
+            font-size: 18px;
+        }
 
         &_item {
             &_active {
